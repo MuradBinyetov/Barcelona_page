@@ -1,0 +1,67 @@
+img {
+  width: 100%;
+}
+
+header {
+  height: 300px;
+  background-image: url(../image/fc_barcelona.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header h1 {
+  color: white;
+}
+
+header p {
+  color: white;
+}
+
+.link {
+  height: 50px;
+  background: #333333;
+  font-size: 1.2em;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.link .home {
+  background-color: #666666;
+}
+
+.link a {
+  color: white;
+  text-decoration: none;
+}
+
+.link a:hover {
+  background-color: #ddd;
+}
+
+aside {
+  background: #f1f1f1;
+}
+
+aside .imgs img {
+  height: 120px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center 0;
+     object-position: center 0;
+}
+
+main img {
+  height: 210px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center 1;
+     object-position: center 1;
+}
+
+footer img {
+  width: 20%;
+}
+/*# sourceMappingURL=index.css.map */
